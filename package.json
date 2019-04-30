@@ -1,0 +1,30 @@
+{
+  "name": "todolistapi",
+  "version": "1.0.0",
+  "description": "RESTful todoListApi",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Fernando0107/RESTful.git"
+  },
+  "keywords": [
+    "RESTful"
+  ],
+  "author": "Fernando Gonzalez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Fernando0107/RESTful/issues"
+  },
+  "homepage": "https://github.com/Fernando0107/RESTful#readme",
+  "devDependencies": {
+    "nodemon": "^1.18.11"
+  },
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongoose": "^5.5.5"
+  }
+}
